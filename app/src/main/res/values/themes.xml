@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme: Material3, no ActionBar, full edge-to-edge dark -->
+    <style name="Theme.SamAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/sam_bg</item>
+        <item name="android:statusBarColor">@color/sam_bg</item>
+        <item name="android:navigationBarColor">@color/sam_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+    <!-- Splash screen theme — shown instantly on launch -->
+    <style name="Theme.SamAI.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/sam_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_sam_splash</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.SamAI</item>
+    </style>
+
+</resources>

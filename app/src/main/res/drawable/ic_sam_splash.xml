@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glow ring -->
+    <path
+        android:fillColor="#1A00D4FF"
+        android:pathData="M54,54m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0" />
+
+    <!-- Middle ring -->
+    <path
+        android:fillColor="#0000D4FF"
+        android:strokeColor="#4400D4FF"
+        android:strokeWidth="1.5"
+        android:pathData="M54,54m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" />
+
+    <!-- Inner ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CC00D4FF"
+        android:strokeWidth="2"
+        android:pathData="M54,54m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+
+    <!-- Core glow -->
+    <path
+        android:fillColor="#6600D4FF"
+        android:pathData="M54,54m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+
+    <!-- Core center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+
+    <!-- Cross lines -->
+    <path
+        android:strokeColor="#8000D4FF"
+        android:strokeWidth="1"
+        android:pathData="M54,10 L54,98" />
+    <path
+        android:strokeColor="#8000D4FF"
+        android:strokeWidth="1"
+        android:pathData="M10,54 L98,54" />
+
+    <!-- Diagonal accents -->
+    <path
+        android:strokeColor="#4400D4FF"
+        android:strokeWidth="0.8"
+        android:pathData="M25,25 L83,83" />
+    <path
+        android:strokeColor="#4400D4FF"
+        android:strokeWidth="0.8"
+        android:pathData="M83,25 L25,83" />
+
+</vector>

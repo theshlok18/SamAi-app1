@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SAM AI</string>
+    <string name="accessibility_service_label">SAM AI Assistant</string>
+    <string name="accessibility_service_description">SAM AI uses the Accessibility Service to control your Android device on your behalf — enabling voice-commanded app control, navigation, and task automation. SAM only acts when you make a request. No background monitoring or recording occurs.</string>
+</resources>
